@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs", 
+    "target": "esnext",
+    "outDir": "./dist",       
+    "rootDir": "./src",
+    "types":[],
+
+    "strict": true,
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": false,
+    "isolatedModules": false,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true
+
+  },
+  "include": ["src/**/*"]
+}
